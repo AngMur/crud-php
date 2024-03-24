@@ -10,7 +10,7 @@
 
 ## Registros dentro de la base
 
-![logs](./screenshots/logs.PNG.PNG)
+![logs](./screenshots/logs.PNG)
 
 ## Modificación a registro
 
