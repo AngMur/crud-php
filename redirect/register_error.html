@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRUD PHP</title>
+<link rel="stylesheet" href="../src/css/login.css">
+<link rel="stylesheet" href="../src/css/scroll.css">
+<style>
+    .container{
+        padding: 80px 0;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-card">
+            <h2>Usuario ocupado</h2>
+            <form action="../src/php/register/register.php" method="post">
+
+                <label for="name">Nombre Completo:</label>
+                <input type="text" id="name" name="name" placeholder="Ingrese su nombre completo" required>
+
+                <label for="phone-number">Número de télefono:</label>
+                <input type="text" id="phone-number" name="phone-number" placeholder="Ingrese su número de télefono" required>
+
+                <label for="address">Dirección de domicilio:</label>
+                <input type="text" id="address" name="address" placeholder="Ingrese dirección" required>
+
+
+                <label for="username">Nombre de Usuario:</label>
+                <input type="text" id="username" name="username" placeholder="Ingrese su nombre de usuario" required>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+
+                <p>¿Ya tienes una cuenta? <a href="../index.html">Inicia sesión</a></p>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

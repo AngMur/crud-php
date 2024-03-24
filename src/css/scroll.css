@@ -1,0 +1,26 @@
+::-webkit-scrollbar {
+	width: 0.75rem;
+}
+
+
+::-webkit-scrollbar-thumb {
+	background-color: pink;
+	border-radius: 6px;
+}
+
+
+::-webkit-scrollbar-track {
+	background-color: rgb(255, 121, 143);
+}
+
+
+::-webkit-scrollbar-button {
+	display: none;
+	/* Ocultar el botón */
+}
+
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+	display: none;
+}

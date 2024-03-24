@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRUD PHP</title>
+<link rel="stylesheet" href="../src/css/login.css">
+<link rel="stylesheet" href="../src/css/scroll.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-card">
+            <h2>Usuario o contraseña inválidos</h2>
+            <form action="../src/php/login/login.php" method="post">
+
+                <label for="username">Nombre de Usuario:</label>
+                <input type="text" id="username" name="username" placeholder="Ingrese su nombre de usuario" required>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+
+                <p>¿No tienes una cuenta? <a href="./register.html">Regístrate</a></p>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
